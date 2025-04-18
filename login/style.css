@@ -1,0 +1,200 @@
+.body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+.card{
+    background-color: #d9ddcd;
+    height: 420px;
+    width: 280px;
+    border-radius: 13px;
+    padding: 10px;
+    position: absolute;
+    top: 99px;
+    left: 290px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.card  #botao{
+    height: 30px;
+    width: 70px;
+}
+
+.card  h2{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card #email{
+    border-radius: 10px;
+    height: 28px;
+    width: 240px;
+    border: none;
+}
+
+.card #senha{
+    border-radius: 10px;
+    border: none;
+    height: 28px;
+    width: 240px;
+}
+
+.card #confirmar {
+    border-radius: 10px;
+    border: none;
+    height: 27px;
+    width: 240px;
+}
+
+.card  ::placeholder{
+    position: relative;
+    left: 10px;
+}
+
+.card #botao{
+    height: 40px;
+    width: 160px;
+    position: absolute;
+    left: 60px;
+    top: 320px;
+    border-radius: 10px;
+    background-color: #40dd65;
+    box-shadow: 1px 4px 0px black;
+}
+
+.card #caixa{
+    height: 40px;
+    position: absolute;
+    width: 20px;
+    top: 273px;
+    left: 30px;
+}
+
+.card #label{
+    position: absolute;
+    top: 287px;
+    font-size: 15px;
+    left: 64px;
+}
+
+.card #sugestao{
+    position: absolute;
+    top: 380px;
+    font-size: 14px;
+    left: 60px;
+}
+
+
+.card2{
+    background-color: #d9ddcd;
+    height: 420px;
+    width: 280px;
+    border-radius: 13px;
+    padding: 10px;
+    position: absolute;
+    top: 99px;
+    left: 790px;
+    box-shadow: 10px 10px 10px;
+}
+
+
+.card2 #email{
+    border-radius: 10px;
+    height: 28px;
+    width: 240px;
+    border: none;
+    position: absolute;
+    left: 30px;
+    top: 130px;
+}
+
+
+.card2 #senha{
+    border-radius: 10px;
+    height: 28px;
+    width: 240px;
+    border: none;
+    position: absolute;
+    top: 194px;
+    left: 30px;
+}
+
+.card2 ::placeholder{
+    position: relative;
+    left: 10px;
+}
+
+.card2 #botao{
+    height: 40px;
+    width: 160px;
+    position: absolute;
+    left: 67px;
+    top: 318px;
+    border-radius: 10px;
+    background-color: #40dd65;
+    box-shadow: 1px 4px 0px black;
+}
+
+.card2 #login{
+    color: white;
+    color: white;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+}
+
+.card2 #confirmar2{
+    border-radius: 10px;
+    height: 28px;
+    width: 240px;
+    border: none;
+    position: absolute;
+    top: 260px;
+    left: 30px;
+}
+
+
+#tema{
+ height: 40px;
+ width: 110px;
+ border-radius: 7px;
+ border: none;
+ /*box-shadow: 4px 3px 9px;*/
+letter-spacing: 0px;
+background: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    backdrop-filter: blur(10px);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#tema :hover{
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.bug a > svg{
+    transform: scale(1.4);
+        position: relative;
+        top: -595px;
+        left: 220px;
+        cursor: pointer;
+        fill: currentColor black;
+        color: black;
+    }

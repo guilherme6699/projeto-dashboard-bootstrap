@@ -1,0 +1,52 @@
+body.dark{
+    background-color: #121212;
+    color: #E0E0E0;
+   
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+.card{
+    height: 100px;
+    width: 240px;
+}
+
+.card >h2{
+    font-size: 27px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card >h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+#texto{
+    height: 30px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+}

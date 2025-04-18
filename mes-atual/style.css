@@ -1,0 +1,311 @@
+body.dark{
+    background-color: #121212;
+    color: #E0E0E0;
+   
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.form-control-dark {
+    border-color: var(--bs-gray);
+  }
+.form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+.text-small {
+    font-size: 85%;
+  }
+  
+.dropdown-toggle:not(:focus) {
+    outline: 0;
+  }
+
+.btn{
+    position: relative;
+    top: -80px;
+    left: 280px;
+    height: 40px;
+    width:118px;
+  }
+  
+
+#icone-notificacao{
+    height: 50px;
+    width: 30px;
+    position: relative;
+    top: -80px;
+    left: -90px;
+    cursor: pointer;
+  }
+
+
+  .card-lateral{
+    /*background-color: blue;*/
+    width:220px;
+    height: 578px;
+    position: absolute;
+    top: 71px;
+    border: 1px solid;
+  }
+
+
+ #casa{
+    position: relative;
+    left: -240px;
+    height: 50px;
+    width: 23px;
+    cursor: pointer;
+}
+
+#label-casa{
+    position: relative;
+    left: -102px;
+    top: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.calendario >svg{
+    position: relative;
+    left: 16px;
+    cursor: pointer;
+    height: 50px;
+    width: 22px;
+}
+
+.calendario >label{
+    position: relative;
+    left: 27px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.pedido >svg{
+    position: relative;
+    left: 16px;
+    height: 50px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.pedido >a >label{
+    position: relative;
+    left: 27px;
+    top: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.pessoa >svg{
+    position: relative;
+    left: 13px;
+    height: 50px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.pessoa >a >label{
+    position: relative;
+    left: 21px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.relatorio >h3{
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.relatorio >svg{
+    position: relative;
+    left: 176px;
+    top: -20px;
+    height: 50px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.mes-atual >svg{
+    position: relative;
+    left: 16px;
+    height: 50px;
+    width: 28px;
+}
+
+.mes-atual >a >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.trimestre >svg{
+    position: relative;
+    left: 16px;
+    height: 50px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.trimestre >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 4px;
+    cursor: pointer;
+}
+
+
+.social >svg{
+    position: relative;
+    left: 16px;
+    height: 50px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.social >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 4px;
+    cursor: pointer;
+}
+
+.config >svg{
+    position: relative;
+    left: 18px;
+    height: 50px;
+    width: 20px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.config >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 27px;
+    cursor: pointer;
+}
+
+.sair >svg{
+    position: relative;
+    left: 18px;
+    top: 30px;
+    height: 50px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.sair >a >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 33px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
+#data{
+    position: relative;
+    left: 900px;
+    top: -530px;
+    left: 1150px;
+    cursor: pointer;
+    background-color: rgb(212, 207, 207);
+}
+
+
+
+#salvar{
+    position: relative;
+    left: 700px;
+    top: -530px;
+    cursor: pointer;   
+    border: none;
+}
+
+#exportar{
+    position: relative;
+    left: 700px;
+    cursor: pointer;
+    top: -530px;
+}
+
+
+.container >h1{
+    position: relative;
+    top: -480px;
+    left: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*grafico abaixo nao e meu */
+.grafico {
+    width: 600px;
+    height: 350px;
+    position: relative;
+    top: -500px;
+    left: 70px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+    margin: 20px auto;
+    padding: 10px;
+    background: #ffffff;
+}
+.barra {
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.barra:nth-child(1) { background-color: #FF5733; height: 50px; }
+.barra:nth-child(2) { background-color: #33FF57; height: 100px; }
+.barra:nth-child(3) { background-color: #337BFF; height: 150px; }
+.barra:nth-child(4) { background-color: #F3C13A; height: 80px; }
+.barra:nth-child(5) { background-color: #A633FF; height: 120px; }
+
+
+.bug a > svg{
+    transform: scale(1.4);
+        position: relative;
+        top: -595px;
+        left: 220px;
+        cursor: pointer;
+        fill: currentColor black;
+        color: black;
+    }
