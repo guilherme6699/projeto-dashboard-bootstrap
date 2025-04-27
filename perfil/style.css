@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212 !important;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+
+
+#foto-perfil{
+    position: relative;
+    height: 200px;
+    width: 230px;
+    top: 70px;
+    left: 120px;
+    max-width: 100%;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+}
+@keyframes riseUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+#nome{
+    position: relative;
+    color: white;
+    left: 380px;
+    font-size: 28px;
+    top: -90px;    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+}
+
+
+
+#cargo{
+    position: relative;
+    font-size: 20px;
+    top: -70px;
+    left: 380px;
+    color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+}
+
+#setor{
+    position: relative;
+    font-size: 20px;
+    top: -50px;
+    left: 380px;
+    color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+}
+
+
+
+#ativo{
+    position: relative;
+    top: -290px;
+    left: 1100px;
+    font-size: 15px;
+    color: white;
+}
+
+/*.barra-superior{
+    background-color:transparent;
+    height: 50px;
+    position: relative;
+    top: -320px;
+    border: 1px white solid;
+}*/
+
+.linha1{
+    background-color: rebeccapurple;
+    height: 1px;
+    width: 1370px;
+    position: relative;
+    top: -320px;
+}
+
+.linha2{
+    background-color: rebeccapurple;
+    height: 1px;
+    width: 1370px;
+    position: relative;
+    top: -280px;
+}
+
+
+#caixa{
+    position: relative;
+    top: -315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 530px;
+    width: 280px;
+    border: 1 solid white ;
+    background-color: transparent;
+    border-radius: 7px;
+}
+
+#caixa::placeholder{
+    position: absolute;
+    left: 10px !important;
+    color: white !important;
+
+}
+
+
+
+#tempo{
+    position: relative;
+    top: -290px;
+    left: 100px;
+    color: white;
+}
