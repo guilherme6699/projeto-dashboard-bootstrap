@@ -36,9 +36,10 @@ body{
 #nome{
     position: relative;
     color: white;
-    left: 380px;
+    left: 360px;
     font-size: 28px;
-    top: -90px;    opacity: 0;
+    top: -100px;    
+    opacity: 0;
     transform: translateY(50px);
     animation: riseUp 1s ease-out forwards;
 }
@@ -48,8 +49,8 @@ body{
 #cargo{
     position: relative;
     font-size: 20px;
-    top: -70px;
-    left: 380px;
+    top: -90px;
+    left: 360px;
     color: white;
     opacity: 0;
     transform: translateY(50px);
@@ -59,8 +60,8 @@ body{
 #setor{
     position: relative;
     font-size: 20px;
-    top: -50px;
-    left: 380px;
+    top: -80px;
+    left: 360px;
     color: white;
     opacity: 0;
     transform: translateY(50px);
@@ -75,6 +76,9 @@ body{
     left: 1100px;
     font-size: 15px;
     color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
 }
 
 /*.barra-superior{
@@ -113,6 +117,9 @@ body{
     border: 1 solid white ;
     background-color: transparent;
     border-radius: 7px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
 }
 
 #caixa::placeholder{
@@ -129,4 +136,53 @@ body{
     top: -290px;
     left: 100px;
     color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+}
+
+
+.list-group{
+    position: relative;
+    left: -460px;
+    height: 50px;
+    top: -15px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+}
+
+
+.list-group-item {
+    width: 340px;
+    background-color: rgb(141, 141, 141);
+}
+
+
+#label{
+    position: relative;
+    top: -208px;
+    left: 590px;
+    font-size: 25px;
+    color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+}
+
+
+.linha-aviso{
+    height: 1px;
+    width: 1370px;
+    background-color: rebeccapurple;
+    position: relative;
+    top: -200px;
+}
+
+.linha-aviso2{
+    height: 1px;
+    width: 1370px;
+    background-color: rebeccapurple;
+    position: relative;
+    top: -250px;
 }
