@@ -90,7 +90,7 @@ body{
 }*/
 
 .linha1{
-    background-color: rebeccapurple;
+    background-color: rgb(56, 56, 56);
     height: 1px;
     width: 1370px;
     position: relative;
@@ -98,7 +98,7 @@ body{
 }
 
 .linha2{
-    background-color: rebeccapurple;
+    background-color: rgb(56, 56, 56);
     height: 1px;
     width: 1370px;
     position: relative;
@@ -120,6 +120,7 @@ body{
     opacity: 0;
     transform: translateY(50px);
     animation: riseUp 1s ease-out forwards;
+    color: white;
 }
 
 #caixa::placeholder{
@@ -174,7 +175,7 @@ body{
 .linha-aviso{
     height: 1px;
     width: 1370px;
-    background-color: rebeccapurple;
+    background-color: rgb(56, 56, 56);
     position: relative;
     top: -200px;
 }
@@ -182,7 +183,112 @@ body{
 .linha-aviso2{
     height: 1px;
     width: 1370px;
-    background-color: rebeccapurple;
+    background-color: rgb(56, 56, 56);
     position: relative;
     top: -250px;
 }
+
+
+.usados{
+    background-color: transparent;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    position: relative;
+    top: -480px;
+    left: 1000px;
+    border: 1px solid white;
+}
+#txt-usados{
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+    color: white;
+}
+
+
+.imagens{
+    top: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+}
+#word{
+    height: 40px;
+    width:65px;
+    position: relative;
+    left: 10px;
+}
+
+#excel{
+    height: 40px;
+    width: 65px;
+    position: relative;
+    left: 20px;
+}
+
+#powerpoint{
+    height: 40px;
+    width: 65px;
+    position: relative;
+    left: 30px;
+}
+
+
+
+#icone-notificacao{
+    height: 45px;
+    width: 25px;
+    position: relative;
+    top: -130px;
+    left: -950px;
+    cursor: pointer;
+    color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: riseUp 1s ease-out forwards;
+  }
+
+
+
+  .bug a > svg{
+    transform: scale(1.4);
+        position: relative;
+        top: -729px;
+        left: 320px;
+        cursor: pointer;
+        fill: currentColor black;
+        color: white;
+        opacity: 0;
+        transform: translateY(50px);
+        animation: riseUp 1s ease-out forwards;
+    }
+
+
+    .sair a >svg{
+        font-size: 18px;
+        position: relative;
+        left: 480px;
+        top: -760px;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        height: 45px;
+        width: 25px;
+        opacity: 0;
+        transform: translateY(50px);
+        animation: riseUp 1s ease-out forwards;
+    }
+    
+
+
+    .usados{
+        opacity: 0;
+        transform: translateY(50px);
+        animation: riseUp 1s ease-out forwards;
+    }
