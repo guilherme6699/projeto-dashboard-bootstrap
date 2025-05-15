@@ -7,6 +7,7 @@ import(
 	   "os"
     "runtime"
 	"os/exec"
+	"time"
 )
 
 func main(){
@@ -14,7 +15,8 @@ func main(){
 	nomeu := "gui"
 	senhau := "46092560"
 
-	fmt.Println("\n          MENU V1   \n")
+	fmt.Println("\n          MENU V1  ")
+	fmt.Println("feito por:Guilherme/Cauan")
 
 	fmt.Print("Digite o Usuario:")
 	var Usuario string
@@ -32,8 +34,9 @@ func main(){
 		fmt.Println("\n ✅ Login Realizado com Sucesso!\n")
 		fmt.Println("-------SELECIONE A OPÇÃO DESEJADA-------")
 		fmt.Println("1 - Reiniciar o Serviço do xamp")
-		fmt.Println("2 - ")
-
+		fmt.Println("2 - Verificar o status dos Serviços")
+		fmt.Println("3 - Ferramentas de Manutenção")
+		fmt.Println("4 - Sair")
 		var opcao int 
 		_, err := fmt.Scanln(&opcao)
 		if err != nil {
@@ -44,14 +47,59 @@ func main(){
 		switch opcao{
 	case  1:
 		 xamp()
+
 	case 2:
+
+		fmt.Println("Verificando o status dos Serviços...")
+		time.Sleep(2 * time.Second)
+		fmt.Println("Serviços OK!✅")
+
+	case 3:
+		tool()
+	case 4:
 		fmt.Println("Saindo..")
 		return
+
+
+		
+
 	default:
 		fmt.Println("opção Invalida")
 	  }
 	} else{
 		fmt.Println("\n❌ Login Falhou! Verifique o usuário ou senha.\n")
+	}
+}
+
+
+func tool(){
+	fmt.Println("------Ferramentas de Manutenção:------")
+	fmt.Println("1 - vscode")
+	fmt.Println("2 - xampp")
+	fmt.Println("3 - Terminal")
+	var opc int
+	_, err := fmt.Scanln(&opc)
+		if err != nil {
+			fmt.Println("Erro, Digite um numero valido")
+			return			
+		}
+
+
+	switch opc{
+
+	case 1:
+		fmt.Println("🔄 Abrindo o Visual Studio Code...")
+		time.Sleep(2 * time.Second)
+
+	case 2:
+		time.Sleep(1 * time.Second)
+		fmt.Println(" Em breve..")
+
+	case 3:
+		time.Sleep(1 * time.Second)
+		fmt.Println("Em Breve..")
+		default:
+		fmt.Println("opção Invalida")
 	}
 }
 
