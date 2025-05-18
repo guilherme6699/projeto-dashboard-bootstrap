@@ -14,7 +14,6 @@ func main(){
 
 	nomeu := "gui"
 	senhau := "46092560"
-
 	fmt.Println("\n          MENU V1  ")
 	fmt.Println("feito por:Guilherme/Cauan")
 
@@ -31,6 +30,7 @@ func main(){
 	SenhaCorreta := strings.TrimSpace(senha) == senhau
 	
 	if UsuarioCorreto && SenhaCorreta {
+
 		fmt.Println("\n ✅ Login Realizado com Sucesso!\n")
 		fmt.Println("-------SELECIONE A OPÇÃO DESEJADA-------")
 		fmt.Println("1 - Reiniciar o Serviço do xamp")
@@ -88,8 +88,7 @@ func tool(){
 	switch opc{
 
 	case 1:
-		fmt.Println("🔄 Abrindo o Visual Studio Code...")
-		time.Sleep(2 * time.Second)
+		code()
 
 	case 2:
 		time.Sleep(1 * time.Second)
@@ -103,9 +102,32 @@ func tool(){
 	}
 }
 
-		func xamp(){
-			fmt.Println("🔄 Reiniciando serviços do XAMPP...")
 
+func code(){
+var cmd *exec.Cmd
+
+switch runtime.GOOS {
+	 case "windows":
+		cmd = exec.Command("code", ".")
+	 case "linux", "darwin":
+		cmd = exec.Command("code",".")
+	 default:
+		fmt.Println("❌ Sistema operacional não suportado")
+		os.Exit(1)
+	}	
+		fmt.Printf("🔄 Abrindo VS Code no diretori atual\n")
+		err := cmd.Start()
+		if err != nil {
+			fmt.Printf("❌ Falha ao abrir VS Code: %v\n", err)
+			fmt.Println("⚠️ Certifique-se que o VS Code está instalado e no PATH")
+			os.Exit(1)
+		}
+		fmt.Println("✅ VS code aberto com sucesso")
+		time.Sleep(2 * time.Second)
+}
+
+	func xamp(){
+		fmt.Println("🔄 Reiniciando serviços do XAMPP...")
 	// Verifica o sistema operacional
 	switch runtime.GOOS {
 	case "linux":
