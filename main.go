@@ -95,8 +95,8 @@ func tool(){
 		fmt.Println(" Em breve..")
 
 	case 3:
-		time.Sleep(1 * time.Second)
-		fmt.Println("Em Breve..")
+	
+	    term()
 		default:
 		fmt.Println("opção Invalida")
 	}
@@ -159,6 +159,28 @@ switch runtime.GOOS {
 }
 func reiniciarXAMPPWindows() {
 	fmt.Println(" ⚠️comandos para Windows ainda não implementados")
+		}
+
+		func term() {
+
+			var cmd *exec.Cmd
+
+			switch runtime.GOOS{
+			case "linux":
+				cmd = exec.Command("gnome-terminal")
+			case "windows":
+				cmd = exec.Command("cmd", "/C", "start")
+			default:
+				fmt.Println("❌ Sistema Nâo Suportado")
+				return 
+			}
+
+			err := cmd.Start()
+			if err != nil {
+				fmt.Printf("❌ Erro Ao Abrir o Terminal: %v")
+			}else {
+				fmt.Println("✅ Terminal Aberto com Sucesso")
+			}
 		}
 	
 	
