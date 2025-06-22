@@ -319,3 +319,64 @@ transform: scale(1.4);
     fill: currentColor black;
     color: black;
 }
+
+
+.menu-direito{
+    height: 360px;
+    width: 75px;
+    background-color: transparent;
+    position: relative;
+    top: -760px;
+    left: 1292px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+
+#icone1{
+    height: 50px;
+    width: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 15px;
+    top: 18px;
+    cursor: pointer;
+}
+
+#icone2{
+    height: 50px;
+    width: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 15px;
+    top: 28px;
+    cursor: pointer;
+}
+
+#icone3{
+    height: 50px;
+    width: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 15px;
+    top: 38px;
+    cursor: pointer;
+}
+
+#icone4{
+    height: 50px;
+    width: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 15px;
+    top: 48px;
+    cursor: pointer;
+}
