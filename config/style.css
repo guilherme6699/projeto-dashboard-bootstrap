@@ -1,0 +1,506 @@
+body.dark{
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.form-control-dark {
+    border-color: var(--bs-gray);
+  }
+.form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+.text-small {
+    font-size: 85%;
+  }
+  
+.dropdown-toggle:not(:focus) {
+    outline: 0;
+  }
+
+.btn{
+    position: relative;
+    top: -80px;
+    left: 280px;
+    height: 40px;
+    width:118px;
+  }
+  
+
+#icone-notificacao{
+    height: 50px;
+    width: 30px;
+    position: relative;
+    top: -80px;
+    left: -90px;
+    cursor: pointer;
+  }
+
+
+  .card-lateral{
+    /*background-color: blue;*/
+    width:220px;
+    height: 578px;
+    position: absolute;
+    top: 71px;
+    border: 1px solid;
+  }
+
+
+ #casa{
+    position: relative;
+    left: -240px;
+    height: 50px;
+    width: 23px;
+    cursor: pointer;
+}
+
+#label-casa{
+    position: relative;
+    left: -102px;
+    top: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.calendario >svg{
+    position: relative;
+    left: 16px;
+    cursor: pointer;
+    height: 50px;
+    width: 22px;
+}
+
+.calendario >label{
+    position: relative;
+    left: 27px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.pedido >svg{
+    position: relative;
+    left: 16px;
+    height: 50px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.pedido >a >label{
+    position: relative;
+    left: 27px;
+    top: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.pessoa >svg{
+    position: relative;
+    left: 13px;
+    height: 50px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.pessoa >a >label{
+    position: relative;
+    left: 21px;
+    font-size: 20px;
+    cursor: pointer;
+    top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.relatorio >h3{
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.relatorio >svg{
+    position: relative;
+    left: 176px;
+    top: -20px;
+    height: 50px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.mes-atual >svg{
+    position: relative;
+    left: 16px;
+    height: 50px;
+    width: 28px;
+}
+
+.mes-atual >a >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
+.trimestre >svg{
+    position: relative;
+    left: 16px;
+    height: 50px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.trimestre >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 4px;
+    cursor: pointer;
+}
+
+
+.social >svg{
+    position: relative;
+    left: 16px;
+    height: 50px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.social >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 4px;
+    cursor: pointer;
+}
+
+.config >svg{
+    position: relative;
+    left: 18px;
+    height: 50px;
+    width: 20px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.config >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 27px;
+    cursor: pointer;
+}
+
+.sair >svg{
+    position: relative;
+    left: 18px;
+    top: 30px;
+    height: 50px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.sair >a >label{
+    font-size: 18px;
+    position: relative;
+    left: 21px;
+    top: 33px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
+.linha1{
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+    width: 190px;
+    position: relative;
+    top: -480px;
+    left: 218px;
+}
+
+.linha2{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    width: 1px;
+    position: relative;
+    top: -480px;
+    left: 407px;
+}
+
+.linha3{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+    width: 190px;
+    top: -483px;
+    left: 218px;
+}
+
+
+#texto{
+    position: relative;
+    top: -1035px;
+    left: 230px;
+    font-size: 30px;
+}
+
+.geral >svg{
+    position: relative;
+    top: -990px;
+    left: 240px;
+    height: 30px;
+    width: 25px;
+}
+
+.geral >label{
+    position: relative;
+    top: -986px;
+    left: 250px;
+    font-size: 23px;
+}
+
+.conta >svg{
+    position: relative;
+    top: -970px;
+    left: 240px;
+    width: 25px;
+    height: 30px;
+}
+
+#conta{
+    position: relative;
+    top: -965px;
+    left: 250px;
+    font-size: 23px;
+}
+
+.privaciade >svg{
+    position: relative;
+    top: -950px;
+    left: 240px;
+    width: 25px;
+    height: 30px;
+}
+
+.privaciade >label{
+    position: relative;
+    top: -944px;
+    left: 250px;
+    font-size: 19px;
+}
+
+
+.aparencia >svg{
+    position: relative;
+    top: -930px;
+    left: 240px;
+    width: 25px;
+    height: 30px;
+}
+
+.aparencia >label{
+    position: relative;
+    top: -925px;
+    left: 250px;
+    font-size: 20px;
+}
+
+
+.card1{
+    background-color: rgb(179, 179, 179);
+    position: relative;
+    top: -1160px;
+    height: 200px;
+    width: 930px;
+    left: 300px;
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.card1 >h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#caixinha1{
+    position: relative;
+    left: 20px;
+    height: 30px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin: none;
+
+}
+#label1{
+    position: relative;
+    left: 30px;
+    top: -9px;
+}
+
+#caixinha2{
+    position: relative;
+    left: 20px;
+    width: 20px;
+    cursor: pointer;
+    top: 20px;
+    height: 30px;
+}
+
+#label2{
+    position: relative;
+    left: -304px;
+    top: 12px;
+    font-size: 17px;
+}
+
+
+#label3{
+    position: relative;
+    left: -138px;
+    top: 16px;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+#label4{
+    position: relative;
+    left: 3px;
+    top: 36px;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+
+
+.card2{
+    background-color: rgb(179, 179, 179);
+    position: relative;
+    top: -1100px;
+    height: 200px;
+    width: 930px;
+    left: 300px;
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+}
+
+
+#Conta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+
+#nome{
+    position: relative;
+    left: 40px;
+    font-size: 17px;
+    top: 5px;
+}
+
+#novo-nome{
+    position: relative;
+    left: -170px;
+    top: 40px;
+    margin: none;
+    border: none;
+    border-radius: 8px;
+}
+
+#novo-nome::placeholder{
+    position: relative;
+    left: 10px;
+    font-size: 13px;
+}
+
+
+#senha{
+    position: relative;
+    left: -100px;
+    top: 5px;
+    font-size: 17px;
+}
+
+#nova-senha{
+    position: relative;
+    left: -209px;
+    margin: none;
+    border: none;
+    top: 40px;
+    border-radius: 8px;
+}
+
+#nova-senha::placeholder{
+    position: relative;
+    left: 20px;
+    font-size: 13px;
+    height: -10px;
+    color: black;
+}
+
+#senha-atual{
+    position: relative;
+    left: -100px;
+    top: 5px;
+    font-size: 17px;
+}
+
+#confirmação{
+    position: relative;
+    left: 630px;
+    margin: none;
+    border: none;
+    top: 8px;
+    border-radius: 8px;
+}
+
+#confirmação::placeholder{
+    position: relative;
+    left: 20px;
+    top: -10px;
+    font-size: 13px;
+}
+
+#botao{
+    position: relative;
+    top: 70px;
+    left: 160px;
+    width: 140px;
+}
+
+
+
+.bug a > svg{
+    transform: scale(1.4);
+        position: relative;
+        top: -595px;
+        left: 220px;
+        cursor: pointer;
+        fill: currentColor black;
+        color: black;
+    }
